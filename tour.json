@@ -1,0 +1,379 @@
+{
+ "plan": "The Owen",
+ "unit": "",
+ "start": "front",
+ "nodes": [
+  {
+   "id": "front",
+   "name": "Front of the home",
+   "floor": -1,
+   "look": -8.1,
+   "links": [
+    {
+     "to": "foyer",
+     "label": "Foyer",
+     "yaw": -8.1,
+     "pitch": -2.0
+    }
+   ]
+  },
+  {
+   "id": "masterbdrm",
+   "name": "Master Bdrm",
+   "floor": 0,
+   "look": 176.4,
+   "links": [
+    {
+     "to": "masterbath",
+     "label": "Master bath",
+     "yaw": 176.4,
+     "pitch": -15.1
+    },
+    {
+     "to": "hall",
+     "label": "Hall",
+     "yaw": -126.2,
+     "pitch": -14.8
+    }
+   ]
+  },
+  {
+   "id": "masterbath",
+   "name": "Master bath",
+   "floor": 0,
+   "look": -3.6,
+   "links": [
+    {
+     "to": "masterbdrm",
+     "label": "Master Bdrm",
+     "yaw": -3.6,
+     "pitch": -15.1
+    },
+    {
+     "to": "hall",
+     "label": "Hall",
+     "yaw": -20.0,
+     "pitch": -36.0
+    }
+   ]
+  },
+  {
+   "id": "pantry",
+   "name": "Pantry",
+   "floor": 0,
+   "look": 154.3,
+   "links": [
+    {
+     "to": "kitchen",
+     "label": "Kitchen",
+     "yaw": 154.3,
+     "pitch": -15.8
+    },
+    {
+     "to": "foyer",
+     "label": "Foyer",
+     "yaw": 174.0,
+     "pitch": -10.1
+    }
+   ]
+  },
+  {
+   "id": "kitchen",
+   "name": "Kitchen",
+   "floor": 0,
+   "look": -5.9,
+   "links": [
+    {
+     "to": "utilityrm",
+     "label": "Utility Rm",
+     "yaw": -5.9,
+     "pitch": -14.0
+    },
+    {
+     "to": "pantry",
+     "label": "Pantry",
+     "yaw": -53.0,
+     "pitch": -14.4
+    },
+    {
+     "to": "foyer",
+     "label": "Foyer",
+     "yaw": 175.7,
+     "pitch": -14.2
+    },
+    {
+     "to": "hall",
+     "label": "Hall",
+     "yaw": 114.7,
+     "pitch": -10.1
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs - Upstairs hall",
+     "yaw": 71.0,
+     "pitch": -3.7
+    }
+   ]
+  },
+  {
+   "id": "foyer",
+   "name": "Foyer",
+   "floor": 0,
+   "look": 32.5,
+   "links": [
+    {
+     "to": "kitchen",
+     "label": "Kitchen",
+     "yaw": 32.5,
+     "pitch": -18.1
+    },
+    {
+     "to": "hall",
+     "label": "Hall",
+     "yaw": 55.9,
+     "pitch": -12.2
+    },
+    {
+     "to": "pantry",
+     "label": "Pantry",
+     "yaw": -36.4,
+     "pitch": -18.0
+    },
+    {
+     "to": "front",
+     "label": "Front of the home",
+     "yaw": 132.1,
+     "pitch": -12.5
+    }
+   ]
+  },
+  {
+   "id": "hall",
+   "name": "Hall",
+   "floor": 0,
+   "look": 54.6,
+   "links": [
+    {
+     "to": "masterbdrm",
+     "label": "Master Bdrm",
+     "yaw": 54.6,
+     "pitch": -14.9
+    },
+    {
+     "to": "masterbath",
+     "label": "Master bath",
+     "yaw": 98.1,
+     "pitch": -16.7
+    },
+    {
+     "to": "kitchen",
+     "label": "Kitchen",
+     "yaw": -67.8,
+     "pitch": -10.1
+    },
+    {
+     "to": "foyer",
+     "label": "Foyer",
+     "yaw": -99.0,
+     "pitch": -12.5
+    },
+    {
+     "to": "utilityrm",
+     "label": "Utility Rm",
+     "yaw": -54.6,
+     "pitch": -14.9
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs - Upstairs hall",
+     "yaw": -56.7,
+     "pitch": -23.9
+    }
+   ]
+  },
+  {
+   "id": "utilityrm",
+   "name": "Utility Rm",
+   "floor": 0,
+   "look": 174.1,
+   "links": [
+    {
+     "to": "kitchen",
+     "label": "Kitchen",
+     "yaw": 174.1,
+     "pitch": -14.0
+    },
+    {
+     "to": "garage",
+     "label": "Garage",
+     "yaw": -1.8,
+     "pitch": -11.9
+    },
+    {
+     "to": "pantry",
+     "label": "Pantry",
+     "yaw": 176.6,
+     "pitch": -26.5
+    },
+    {
+     "to": "hall",
+     "label": "Hall",
+     "yaw": 140.1,
+     "pitch": -10.1
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs - Upstairs hall",
+     "yaw": 138.3,
+     "pitch": -18.9
+    }
+   ]
+  },
+  {
+   "id": "garage",
+   "name": "Garage",
+   "floor": 0,
+   "look": -178.8,
+   "links": [
+    {
+     "to": "utilityrm",
+     "label": "Utility Rm",
+     "yaw": -178.8,
+     "pitch": -8.4
+    }
+   ]
+  },
+  {
+   "id": "bdrm4",
+   "name": "Bdrm 4",
+   "floor": 1,
+   "look": -149.2,
+   "links": [
+    {
+     "to": "bath3",
+     "label": "Bath 3",
+     "yaw": -149.2,
+     "pitch": -19.2
+    }
+   ]
+  },
+  {
+   "id": "bath3",
+   "name": "Bath 3",
+   "floor": 1,
+   "look": -78.7,
+   "links": [
+    {
+     "to": "bdrm4",
+     "label": "Bdrm 4",
+     "yaw": -78.7,
+     "pitch": -25.5
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs hall",
+     "yaw": -84.0,
+     "pitch": -10.1
+    }
+   ]
+  },
+  {
+   "id": "upstairshall",
+   "name": "Upstairs hall",
+   "floor": 1,
+   "look": -136.7,
+   "links": [
+    {
+     "to": "bdrm3",
+     "label": "Bdrm 3",
+     "yaw": -136.7,
+     "pitch": -36.1
+    },
+    {
+     "to": "bdrm2",
+     "label": "Bdrm 2",
+     "yaw": -80.4,
+     "pitch": -13.3
+    },
+    {
+     "to": "bath3",
+     "label": "Bath 3",
+     "yaw": 99.3,
+     "pitch": -12.0
+    },
+    {
+     "to": "bdrm4",
+     "label": "Bdrm 4",
+     "yaw": 80.8,
+     "pitch": -12.8
+    },
+    {
+     "to": "kitchen",
+     "label": "Main floor - Kitchen",
+     "yaw": 73.5,
+     "pitch": -28.2
+    }
+   ]
+  },
+  {
+   "id": "bath2",
+   "name": "Bath 2",
+   "floor": 1,
+   "look": -86.7,
+   "links": [
+    {
+     "to": "bdrm2",
+     "label": "Bdrm 2",
+     "yaw": -86.7,
+     "pitch": -18.1
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs hall",
+     "yaw": -117.4,
+     "pitch": -29.2
+    }
+   ]
+  },
+  {
+   "id": "bdrm3",
+   "name": "Bdrm 3",
+   "floor": 1,
+   "look": 38.4,
+   "links": [
+    {
+     "to": "upstairshall",
+     "label": "Upstairs hall",
+     "yaw": 38.4,
+     "pitch": -15.5
+    },
+    {
+     "to": "bdrm2",
+     "label": "Bdrm 2",
+     "yaw": 23.4,
+     "pitch": -19.5
+    }
+   ]
+  },
+  {
+   "id": "bdrm2",
+   "name": "Bdrm 2",
+   "floor": 1,
+   "look": 97.1,
+   "links": [
+    {
+     "to": "bath2",
+     "label": "Bath 2",
+     "yaw": 97.1,
+     "pitch": -16.8
+    },
+    {
+     "to": "upstairshall",
+     "label": "Upstairs hall",
+     "yaw": 121.6,
+     "pitch": -15.6
+    }
+   ]
+  }
+ ]
+}
